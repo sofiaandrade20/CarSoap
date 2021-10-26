@@ -1,0 +1,9 @@
+<carenv:Envelope xmlns:carenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://bootcamp.com/">
+    <carenv:Header/>
+    <carenv:Body>
+        <us:getCarRequest>
+            <us:brand>Porsche</us:brand>
+        </us:getCarRequest>
+    </carenv:Body>
+</carenv:Envelope>
